@@ -5,29 +5,13 @@
 
 
 import pandas as pd
-import numpy as np
-import nltk
 from tqdm import tqdm
-from time import sleep
-import matplotlib.pyplot as plt
-import seaborn as sns
-import scipy.stats as stats
-import sklearn.metrics as metrics
 from rake_nltk import Rake
-from scipy import sparse
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics.pairwise import cosine_similarity
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.metrics import mean_squared_error
 
 ##
 # Load the data
 items = pd.read_csv('resources/articles.csv', )
 
-##
-print(items.columns)
 ##
 items['Key_words'] = ''
 

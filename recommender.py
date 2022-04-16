@@ -8,19 +8,10 @@ import pandas as pd
 import numpy as np
 from tqdm import tqdm
 from tqdm import trange
-from time import sleep
-import matplotlib.pyplot as plt
-import seaborn as sns
-import scipy.stats as stats
-import sklearn.metrics as metrics
 from scipy.sparse import csr_matrix
 from collections import Counter
 from scipy import sparse
 from sklearn.model_selection import train_test_split
-from sklearn.utils import shuffle
-from sklearn.linear_model import LinearRegression
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import mean_squared_error
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import CountVectorizer
 
@@ -466,4 +457,4 @@ for i in tqdm(range(iter)):
 
 
 
-
+################################################ Not completed #########################################################
